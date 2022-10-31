@@ -50,6 +50,7 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -214,6 +215,7 @@
   background-repeat: no-repeat;
   background-position: bottom left;
   position: relative;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -269,11 +271,13 @@
 
 .footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 350px;
   padding: 60px 0 40px;
   background-color: #1f1f1f;
   color: white;
+  box-sizing: border-box;
 }
 
 .footer__columns {
